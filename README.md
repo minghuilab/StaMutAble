@@ -15,12 +15,13 @@ For the easiest setup, pull the public Docker image. Make sure Docker is install
 docker pull minghuilab/StaMutAble:v1
 ```
 
-• Image size: 57.3 GB
-• Estimated download time (approximate):
 
-100 Mbps: ~76 min
-1 Gbps: ~8 min
-(actual time depends on your network speed)
+•  Image size: 57.3 GB  
+•  Estimated download time (approximate):
+
+> 100 Mbps: ~76 min    
+> 1 Gbps: ~8 min  
+> (actual time depends on your network speed)
 
 
 
