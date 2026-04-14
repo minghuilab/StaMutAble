@@ -49,19 +49,29 @@ pdb_mut	PremPS	ThermoMPNN	ThermoNet	ACDC-NN	DDGun3D	MAESTRO	MultiMutate	SimBa-SY
 3OJM_A_K127D	0.62	-0.1659	0.239	0.07103062	-0.4	0.676603256	-6.13512	0.8	-0.734569	0.464097051
 1LZ1_A_V110N	-0.06	0.2837	0.2856	0.26195014	0.8	0.64712527087	-0.073332	0.2	-0.526365	0.4073131118005857
 ```
+
 **Note：**
 
 The **pdb_mut** column represents the mutation along with the PDB ID and chain where the mutation occurs. 
 
 Different columns in the table are separated by tabs.
 
-**Column names (the names of the 10 tools) should adopt the most canonical nomenclature. Please follow the format shown in this example.**
+Column names (the names of the 10 tools) should adopt the most canonical nomenclature. Please follow the format shown in this example.
 
 
+##### 4.Running StaMutAble
 
+For regression model RF-Ensemble-BalAvg:
 
+```
+python StaMutAble_regression.py --workdir /stamutable/ --input /stamutable/example_100muts.txt --output /stamutable/stamutable_output/
+```
 
+For classification model RF-Ensemble-BalVote:
 
+```
+python StaMutAble_classification.py --workdir /stamutable/ --input /stamutable/example_100muts.txt --output /stamutable/stamutable_output/
+```
 
 
 
