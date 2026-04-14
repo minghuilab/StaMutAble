@@ -51,7 +51,7 @@ pdb_mut	DDGexp	PremPS	ThermoMPNN	ThermoNet	ACDC-NN	DDGun3D	MAESTRO	MultiMutate	S
 ```
 **Note：**
 
-The pdb_mut column represents the mutation along with the PDB ID and chain where the mutation occurs. 
+The **pdb_mut** column represents the mutation along with the PDB ID and chain where the mutation occurs. 
 
 Different columns in the table are separated by tabs.
 
