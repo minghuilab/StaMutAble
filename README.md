@@ -33,7 +33,7 @@ cd stamutable
 ```
 
 
-##### 3.Preparing Input and Output Dictionaries
+#### 3.Preparing Input and Output Dictionaries
 
 The program's default input file path is /stamutable/stamutable_input, and the default output path is /stamutable/stamutable_output. 
 
@@ -59,7 +59,7 @@ Different columns in the table are separated by tabs.
 Column names (the names of the 10 tools) should adopt the most canonical nomenclature. Please follow the format shown in this example.
 
 
-##### 4.Running StaMutAble
+#### 4.Running StaMutAble
 
 For regression model RF-Ensemble-BalAvg:
 
@@ -74,7 +74,7 @@ python StaMutAble_classification.py --workdir /stamutable/ --input /stamutable/e
 ```
 
 
-##### 5.Recommended System Requirements
+#### 5.Recommended System Requirements
 
 •	**RAM:** ≥120 GB recommended (≥110 GB minimal requirement)
 
