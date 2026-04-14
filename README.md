@@ -24,6 +24,47 @@ docker pull minghuilab/StaMutAble:v1
 > (actual time depends on your network speed)
 
 
+#### 2.Run the Docker Container and Activate Environment
+
+```
+docker run -it minghuilab/StaMutAble:v1 /bin/bash
+conda activate py38
+cd stamutable
+```
+
+
+##### 3.Preparing Input and Output Dictionaries
+
+程序默认的输入文件路径是/stamutable/stamutable_input，默认的输出路径是/stamutable/stamutable_output
+
+可以根据具体的情况来设定和创建输入输出路径
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
