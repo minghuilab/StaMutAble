@@ -39,7 +39,7 @@ The program's default input file path is /stamutable/stamutable_input, and the d
 
 The input and output paths can be customized and created according to specific needs.
 
-输入文件的参考格式如下所示(example_100muts.txt)：
+The reference format for the input file is shown below (example_100muts.txt):
 
 ```
 pdb_mut	DDGexp	PremPS	ThermoMPNN	ThermoNet	ACDC-NN	DDGun3D	MAESTRO	MultiMutate	SimBa-SYM	FoldX	RaSP
@@ -49,7 +49,11 @@ pdb_mut	DDGexp	PremPS	ThermoMPNN	ThermoNet	ACDC-NN	DDGun3D	MAESTRO	MultiMutate	S
 3OJM_A_K127D	-1.027724665	0.62	-0.1659	0.239	0.07103062	-0.4	0.676603256	-6.13512	0.8	-0.734569	0.464097051
 1LZ1_A_V110N	-0.07	-0.06	0.2837	0.2856	0.26195014	0.8	0.64712527087	-0.073332	0.2	-0.526365	0.4073131118005857
 ```
+**Note：**
 
+The pdb_mut column represents the mutation along with the PDB ID and chain where the mutation occurs. 
+
+Different columns in the table are separated by tabs.
 
 
 
