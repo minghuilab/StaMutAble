@@ -39,7 +39,7 @@ The program's default input file path is /stamutable/stamutable_input, and the d
 
 The input and output paths can be customized and created according to specific needs.
 
-The reference format for the input file is shown below (example_100muts.txt[stamutable_input/example_100muts.txt]):
+The reference format for the input file is shown below (stamutable_input/example_100muts.txt)[stamutable_input/example_100muts.txt]:
 
 ```
 pdb_mut	PremPS	ThermoMPNN	ThermoNet	ACDC-NN	DDGun3D	MAESTRO	MultiMutate	SimBa-SYM	FoldX	RaSP
