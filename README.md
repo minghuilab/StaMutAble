@@ -35,13 +35,20 @@ cd stamutable
 
 ##### 3.Preparing Input and Output Dictionaries
 
-程序默认的输入文件路径是/stamutable/stamutable_input，默认的输出路径是/stamutable/stamutable_output
+The program's default input file path is /stamutable/stamutable_input, and the default output path is /stamutable/stamutable_output. 
 
-可以根据具体的情况来设定和创建输入输出路径
+The input and output paths can be customized and created according to specific needs.
 
+输入文件的参考格式如下所示(example_100muts.txt)：
 
-
-
+```
+pdb_mut	DDGexp	PremPS	ThermoMPNN	ThermoNet	ACDC-NN	DDGun3D	MAESTRO	MultiMutate	SimBa-SYM	FoldX	RaSP
+1SAK_A_F338A	2.03	0.66	0.5463	4.572	2.1404076	2.1	1.07524647487	-2.0934	0.9	0.567048	0.8238141898148867
+5PTI_A_N24A	2.2	2.12	1.2373	0.1041	0.6778762	0.7	0.382988748	0.115158	-0.5	0.766338	0.892086238
+1RG8_A_C16S	2.81	2.01	0.3742	0.1334	1.281904	1.4	3.01222517238	2.90558	1.9	1.0886	1.758955752651941
+3OJM_A_K127D	-1.027724665	0.62	-0.1659	0.239	0.07103062	-0.4	0.676603256	-6.13512	0.8	-0.734569	0.464097051
+1LZ1_A_V110N	-0.07	-0.06	0.2837	0.2856	0.26195014	0.8	0.64712527087	-0.073332	0.2	-0.526365	0.4073131118005857
+```
 
 
 
