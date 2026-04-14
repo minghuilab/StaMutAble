@@ -1,13 +1,13 @@
-## StaMutAble
-### About
+# StaMutAble
+## About
 
 StaMutAble is a computational framework for predicting mutation-induced protein stability changes, with a focus on improving the identification of stabilizing mutations. It integrates predictions from ten existing tools—PremPS, ThermoMPNN, MultiMutate, RaSP, FoldX, ACDC-NN, MAESTRO, ThermoNet, SimBa-SYM, and DDGun3D—as input features and trains ensemble random forest models on datasets balanced between destabilizing and stabilizing mutations. The framework provides two models: RF-Ensemble-BalAvg for regression and RF-Ensemble-BalVote for classification, enabling more accurate, robust, and balanced predictions, particularly for stabilizing mutations.
 
 
-### StaMutAble Installation and Usage Instructions
+## StaMutAble Installation and Usage Instructions
 
 
-#### 1.Pull Docker Image
+### 1.Pull Docker Image
 
 For the easiest setup, pull the public Docker image. Make sure Docker is installed: https://docs.docker.com/get-started/get-docker/
 
@@ -24,7 +24,7 @@ docker pull minghuilab/StaMutAble:v1
 > (actual time depends on your network speed)
 
 
-#### 2.Run the Docker Container and Activate Environment
+### 2.Run the Docker Container and Activate Environment
 
 ```
 docker run -it minghuilab/StaMutAble:v1 /bin/bash
@@ -33,7 +33,7 @@ cd stamutable
 ```
 
 
-#### 3.Preparing Input and Output Dictionaries
+### 3.Preparing Input and Output Dictionaries
 
 The program's default input file path is /stamutable/stamutable_input, and the default output path is /stamutable/stamutable_output. 
 
@@ -59,7 +59,7 @@ Different columns in the table are separated by tabs.
 Column names (the names of the 10 tools) should adopt the most canonical nomenclature. Please follow the format shown in this example.
 
 
-#### 4.Running StaMutAble
+### 4.Running StaMutAble
 
 For regression model RF-Ensemble-BalAvg:
 
@@ -74,7 +74,7 @@ python StaMutAble_classification.py --workdir /stamutable/ --input /stamutable/e
 ```
 
 
-#### 5.Recommended System Requirements
+### 5.Recommended System Requirements
 
 •	**RAM:** ≥120 GB recommended (≥110 GB minimal requirement)
 
