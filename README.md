@@ -74,9 +74,11 @@ python StaMutAble_classification.py --workdir /stamutable/ --input /stamutable/e
 ```
 
 
+##### 5.Recommended System Requirements
 
+•	**RAM:** ≥120 GB recommended (≥110 GB minimal requirement)
 
-
+•	**Disk Space:** ≥100 GB (Docker image: ~57.3 GB + additional space for data and output)
 
 
 
