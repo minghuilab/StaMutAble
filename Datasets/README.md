@@ -2,7 +2,7 @@
 
 ## About
 
-S4038+S2648.txt :
+**S4038+S2648.txt** :
 
 (1) PDB Id: The PDB entry of the protein.
 
