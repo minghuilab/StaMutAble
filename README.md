@@ -1,3 +1,8 @@
 ## StaMutAble
 ### About
 
+StaMutAble is a computational framework for predicting mutation-induced protein stability changes, with a focus on improving the identification of stabilizing mutations. It integrates predictions from ten existing tools as input features and trains ensemble random forest models on datasets balanced between destabilizing and stabilizing mutations. The framework provides two models: RF-Ensemble-BalAvg for regression and RF-Ensemble-BalVote for classification, enabling more accurate and balanced predictions, particularly for stabilizing mutations.
+
+
+
+
