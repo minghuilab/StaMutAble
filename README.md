@@ -16,7 +16,7 @@ docker pull minghuilab/StaMutAble:v1
 ```
 
 
-•  Image size: 57.3 GB  
+•  Image size: 99.7 GB  
 •  Estimated download time (approximate):
 
 > 100 Mbps: ~76 min    
@@ -78,7 +78,7 @@ python StaMutAble_classification.py --workdir /stamutable/ --input /stamutable/e
 
 •	**RAM:** ≥120 GB recommended (≥110 GB minimal requirement)
 
-•	**Disk Space:** ≥100 GB (Docker image: ~57.3 GB + additional space for data and output)
+•	**Disk Space:** ≥100 GB (Docker image: ~99.7 GB + additional space for data and output)
 
 
 
