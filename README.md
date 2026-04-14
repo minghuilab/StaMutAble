@@ -19,8 +19,8 @@ docker pull minghuilab/StaMutAble:v1
 •  Image size: 99.7 GB  
 •  Estimated download time (approximate):
 
-> 100 Mbps: ~76 min    
-> 1 Gbps: ~8 min  
+> 100 Mbps: ~132 min    
+> 1 Gbps: ~14 min  
 > (actual time depends on your network speed)
 
 
@@ -52,11 +52,11 @@ pdb_mut	PremPS	ThermoMPNN	ThermoNet	ACDC-NN	DDGun3D	MAESTRO	MultiMutate	SimBa-SY
 
 **Note：**
 
-The **pdb_mut** column represents the mutation along with the PDB ID and chain where the mutation occurs. 
+(1) The **pdb_mut** column represents the mutation along with the PDB ID and chain where the mutation occurs. 
 
-Different columns in the table are separated by tabs.
+(2) Different columns in the table are separated by tabs.
 
-Column names (the names of the 10 tools) should adopt the most canonical nomenclature. Please follow the format shown in this example.
+(3) Column names (the names of the 10 tools) should adopt the most canonical nomenclature. Please follow the format shown in this example.
 
 
 ### 4. Running StaMutAble
