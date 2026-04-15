@@ -35,7 +35,7 @@ cd stamutable
 
 ### 3. Preparing Input and Output Dictionaries
 
-The program's default input file path is /stamutable/stamutable_input, and the default output path is /stamutable/stamutable_output. 
+The program's default input file path is **/stamutable/stamutable_input**, and the default output path is **/stamutable/stamutable_output**. 
 
 The input and output paths can be customized and created according to specific needs.
 
