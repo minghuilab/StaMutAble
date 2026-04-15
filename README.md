@@ -27,7 +27,7 @@ docker pull minghuilab/stamutable:v1
 ### 2. Run the Docker Container and Activate Environment
 
 ```
-docker run -it minghuilab/StaMutAble:v1 /bin/bash
+docker run -it minghuilab/stamutable:v1 /bin/bash
 conda activate pyG
 cd stamutable
 ```
