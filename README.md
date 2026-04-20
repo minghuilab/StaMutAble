@@ -16,11 +16,11 @@ docker pull minghuilab/stamutable:v1
 ```
 
 
-•  Image size: 99.7 GB  
+•  Image size: 340 GB  
 •  Estimated download time (approximate):
 
-> 100 Mbps: ~132 min    
-> 1 Gbps: ~14 min  
+> 100 Mbps: ~450 min    
+> 1 Gbps: ~48 min  
 > (actual time depends on your network speed)
 
 
