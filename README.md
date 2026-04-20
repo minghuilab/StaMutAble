@@ -35,28 +35,22 @@ cd stamutable
 
 ### 3. Preparing Input and Output Dictionaries
 
-The program's default input file path is **/stamutable/stamutable_input**, and the default output path is **/stamutable/stamutable_output**. 
+The program's default input file path is **/stamutable/example_pdb3**, and the default output path is **/stamutable/example_pdb3_output**. 
 
 The input and output paths can be customized and created according to specific needs.
 
 The reference format for the input file is shown below: [example_100muts.txt](stamutable_input/example_100muts.txt):
 
 ```
-pdb_mut	PremPS	ThermoMPNN	ThermoNet	ACDC-NN	DDGun3D	MAESTRO	MultiMutate	SimBa-SYM	FoldX	RaSP
-1SAK_A_F338A	0.66	0.5463	4.572	2.1404076	2.1	1.07524647487	-2.0934	0.9	0.567048	0.8238141898148867
-5PTI_A_N24A	2.12	1.2373	0.1041	0.6778762	0.7	0.382988748	0.115158	-0.5	0.766338	0.892086238
-1RG8_A_C16S	2.01	0.3742	0.1334	1.281904	1.4	3.01222517238	2.90558	1.9	1.0886	1.758955752651941
-3OJM_A_K127D	0.62	-0.1659	0.239	0.07103062	-0.4	0.676603256	-6.13512	0.8	-0.734569	0.464097051
-1LZ1_A_V110N	-0.06	0.2837	0.2856	0.26195014	0.8	0.64712527087	-0.073332	0.2	-0.526365	0.4073131118005857
+pdb_chain       mutation
+5B83_A  M229W,F232W
 ```
 
 **Note：**
 
-(1) The **pdb_mut** column represents the mutation along with the PDB ID and chain where the mutation occurs. 
+(1) The **pdb_mut** column represents the mutation along with the PDB ID and chain where the mutation occurs. The **mutation** column indicates all single-point mutations occurring on this protein.
 
 (2) Different columns in the table are separated by tabs.
-
-(3) Column names (the names of the 10 tools) should adopt the most canonical nomenclature. Please follow the format shown in this example.
 
 
 ### 4. Running StaMutAble
