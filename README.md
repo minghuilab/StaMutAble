@@ -33,6 +33,8 @@ cd stamutable
 
 ### 3. Download RF models, Required Dependencies and Databases
 
+Due to size limitations on Docker image uploads, the remaining files are provided through alternative distribution methods.
+
 We have released all five regression models and five classification models on Hugging Face. You can download them using the following commands and place them in the specified directory.
 
 **(1) Download RF models**
