@@ -90,7 +90,7 @@ pdb_chain       mutation
 
 (2) Different columns in the table are separated by tabs.
 
-(3) Please place the PDB structures to be processed in the **input_pdbs** folder.
+(3) Please place the PDB structures to be processed in the **input_pdbs** folder. Please ensure that PDB filenames do not contain '_' and are consistent with those specified in the mutation file.
 
 
 ### 5. Running StaMutAble
