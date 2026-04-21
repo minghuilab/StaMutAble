@@ -73,7 +73,7 @@ tar -xzvf uniclust30_2018_08_hhsuite.tar.gz
 
 ### 4. Preparing Input and Output Dictionaries
 
-The program's default input file path is **/stamutable/example_pdb3**, and the default output path is **/stamutable/example_pdb3_output**. 
+The program's default input file path is **/stamutable/example_5B83**, and the default output path is **/stamutable/example_5B83_output**. 
 
 The input and output paths can be customized and created according to specific needs.
 
@@ -89,6 +89,8 @@ pdb_chain       mutation
 (1) The **pdb_mut** column represents the mutation along with the PDB ID and chain where the mutation occurs. The **mutation** column indicates all single-point mutations occurring on this protein.
 
 (2) Different columns in the table are separated by tabs.
+
+(3) Please place the PDB structures to be processed in the **input_pdbs** folder.
 
 
 ### 5. Running StaMutAble
@@ -107,6 +109,15 @@ predicting_workdir="/stamutable/"
 predicting_muts="/stamutable/example_5B83/example_5B83_predictions10.txt"
 predicting_output="/stamutable/example_5B83_output/"
 ```
+
+
+
+
+
+
+
+
+
 
 (2) Running prediction
 ```
