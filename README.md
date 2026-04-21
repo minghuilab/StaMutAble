@@ -32,7 +32,7 @@ conda activate pyG
 cd stamutable
 ```
 
-### Download RF models, Required Dependencies and Databases
+### 3. Download RF models, Required Dependencies and Databases
 
 We have released all five regression models and five classification models on Hugging Face. You can download them using the following commands and place them in the specified directory.
 
@@ -72,7 +72,7 @@ tar -xzvf uniclust30_2018_08_hhsuite.tar.gz
 
 
 
-### 3. Preparing Input and Output Dictionaries
+### 4. Preparing Input and Output Dictionaries
 
 The program's default input file path is **/stamutable/example_pdb3**, and the default output path is **/stamutable/example_pdb3_output**. 
 
@@ -92,7 +92,7 @@ pdb_chain       mutation
 (2) Different columns in the table are separated by tabs.
 
 
-### 4. Running StaMutAble
+### 5. Running StaMutAble
 
 (1) You can run the program by editing the run_prediction.sh script to set the input and output paths.
 ```
@@ -116,7 +116,7 @@ sh run_prediction.sh
 
 
 
-### 5. Recommended System Requirements
+### 6. Recommended System Requirements
 
 •	**RAM:** ≥120 GB recommended (≥110 GB minimal requirement)
 
