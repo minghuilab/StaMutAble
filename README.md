@@ -97,19 +97,20 @@ pdb_chain       mutation
 
 (1) You can run the program by editing the run_prediction.sh script to set the input and output paths.
 ```
-base_dir="/stamutable/example_5B83/"
-input_muts="${base_dir}/example_5B83_input.txt"
-input_pdbs="${base_dir}/input_pdbs/"
-output_pdbs="${base_dir}/pdbs/"
-mkdir -p "$output_pdbs"
+job_name="example_5B83"
+base_dir="/stamutable/${job_name}/"
 
-workdir="/stamutable/methods10/"
-methods10_input="/stamutable/example_5B83/example_5B83.txt"
+input_muts="${base_dir}/${job_name}_input.txt"
+input_pdbs="${base_dir}/input_pdbs"
+output_pdbs="${base_dir}/pdbs"
+
+methods10_input="${base_dir}/${job_name}.txt"
 methods10_output="/stamutable/methods10_output/"
 
-predicting_workdir="/stamutable/"
-predicting_muts="/stamutable/example_5B83/example_5B83_predictions10.txt"
-predicting_output="/stamutable/example_5B83_output/"
+predicting_output="/stamutable/${job_name}_output/"
+predicting_muts="/stamutable/${job_name}_predictions10.txt"
+output_pdbs="${base_dir}/pdbs/"
+mkdir -p "$output_pdbs"
 ```
 
 
