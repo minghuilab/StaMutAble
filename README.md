@@ -32,7 +32,7 @@ conda activate pyG
 cd stamutable
 ```
 
-## Download RF models, Required Dependencies and Databases
+### Download RF models, Required Dependencies and Databases
 
 We have released all five regression models and five classification models on Hugging Face. You can download them using the following commands and place them in the specified directory.
 
