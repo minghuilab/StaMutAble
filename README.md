@@ -28,7 +28,6 @@ docker pull minghuilab/stamutable:v1
 
 ```
 docker run -it minghuilab/stamutable:v1 /bin/bash
-conda activate pyG
 cd stamutable
 ```
 
