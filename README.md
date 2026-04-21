@@ -93,17 +93,26 @@ pdb_chain       mutation
 
 ### 4. Running StaMutAble
 
-For regression model RF-Ensemble-BalAvg:
+(1) You can run the program by editing the run_prediction.sh script to set the input and output paths.
+```
+workdir="/stamutable/methods10/"
+input_muts="/stamutable/example_5B83/example_5B83_input.txt"
+input_pdbs="/stamutable/example_5B83/input_pdbs/"
+output_pdbs="/stamutable/example_5B83/pdbs/"
 
-```
-python StaMutAble_regression.py --workdir /stamutable/ --input /stamutable/example_100muts.txt --output /stamutable/stamutable_output/
+methods10_input="/stamutable/example_5B83/example_5B83.txt"
+methods10_output="/stamutable/methods10_output/"
+
+predicting_workdir="/stamutable/"
+predicting_muts="/stamutable/example_5B83/example_5B83_predictions10.txt"
+predicting_output="/stamutable/example_5B83_output/"
 ```
 
-For classification model RF-Ensemble-BalVote:
+(2) Running prediction
+```
+sh run_prediction.sh
+```
 
-```
-python StaMutAble_classification.py --workdir /stamutable/ --input /stamutable/example_100muts.txt --output /stamutable/stamutable_output/
-```
 
 
 ### 5. Recommended System Requirements
