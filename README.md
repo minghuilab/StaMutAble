@@ -46,9 +46,10 @@ wget -O /stamutable/models/cls_4/mega4_8000_1_model.pkl https://huggingface.co/l
 wget -O /stamutable/models/cls_5/mega5_5000_1_model.pkl https://huggingface.co/liuyang9529/StaMutAble/resolve/main/cls_mega5_5000_1_model.pkl
 
 wget -O /stamutable/models/reg_1/mega1_3000_2_model.pkl https://huggingface.co/liuyang9529/StaMutAble/resolve/main/reg_mega1_3000_2_model.pkl
-
-
-
+wget -O /stamutable/models/reg_2/mega2_5500_2_model.pkl https://huggingface.co/liuyang9529/StaMutAble/resolve/main/reg_mega2_5500_2_model.pkl
+wget -O /stamutable/models/reg_3/mega3_4000_2_model.pkl https://huggingface.co/liuyang9529/StaMutAble/resolve/main/reg_mega3_4000_2_model.pkl
+wget -O /stamutable/models/reg_4/mega4_3500_2_model.pkl https://huggingface.co/liuyang9529/StaMutAble/resolve/main/reg_mega4_3500_2_model.pkl
+wget -O /stamutable/models/reg_5/mega5_3500_2_model.pkl https://huggingface.co/liuyang9529/StaMutAble/resolve/main/reg_mega5_3500_2_model.pkl
 ```
 
 **(2) Download Rosetta to run ThermoNet**
