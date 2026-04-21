@@ -55,11 +55,19 @@ wget -O /stamutable/models/reg_5/mega5_3500_2_model.pkl https://huggingface.co/l
 
 **(2) Download Rosetta to run ThermoNet**
 
+Install Rosetta 3.10
+Obtain an academic license for Rosetta from: https://els2.comotion.uw.edu/product/rosetta
+Download Rosetta 3.10 (including both source code and Linux binaries) from: https://www.rosettacommons.org/software/license-and-download
+Extract the downloaded tarball to a local directory. Ensure that the Rosetta executables can be accessed by specifying their full path (or by adding the directory to your PATH environment variable).
+
 ```
 wget https://downloads.rosettacommons.org/downloads/academic/2023/wk6/
 tar -xjf rosetta.binary.linux.release-315.tar.bz2 -C /stamutable/methods10/ThermoNet
 cd /stamutable/methods10/ThermoNet
 ```
+
+
+
 
 
 **(3) Download uniclust30 to run DDGun3D**
