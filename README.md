@@ -32,6 +32,28 @@ conda activate pyG
 cd stamutable
 ```
 
+## Download RF models, Required Dependencies and Databases
+
+We have released all five regression models and five classification models on Hugging Face. You can download them using the following commands and place them in the specified directory.
+
+(1) RF models
+
+```
+wget -O /stamutable/models/cls_1/mega1_3000_2_model.pkl https://huggingface.co/liuyang9529/StaMutAble/resolve/main/cls_mega1_3000_2_model.pkl
+wget -O /stamutable/models/cls_2/mega2_7500_2_model.pkl https://huggingface.co/liuyang9529/StaMutAble/resolve/main/cls_mega2_7500_2_model.pkl
+wget -O /stamutable/models/cls_3/mega3_6000_2_model.pkl https://huggingface.co/liuyang9529/StaMutAble/resolve/main/cls_mega3_6000_2_model.pkl
+wget -O /stamutable/models/cls_4/mega4_8000_1_model.pkl https://huggingface.co/liuyang9529/StaMutAble/resolve/main/cls_mega4_8000_1_model.pkl
+wget -O /stamutable/models/cls_5/mega5_5000_1_model.pkl https://huggingface.co/liuyang9529/StaMutAble/resolve/main/cls_mega5_5000_1_model.pkl
+
+wget -O /stamutable/models/reg_1/mega1_3000_2_model.pkl https://huggingface.co/liuyang9529/StaMutAble/resolve/main/reg_mega1_3000_2_model.pkl
+
+
+
+```
+
+
+
+
 
 ### 3. Preparing Input and Output Dictionaries
 
