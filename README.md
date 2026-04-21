@@ -60,8 +60,13 @@ cd /stamutable/methods10/ThermoNet
 ```
 
 
+**(3) Download uniclust30 to run DDGun3D**
 
-
+```
+cd /stamutable/methods10/DDGun3D/ddgun-master/data/
+wget -c http://wwwuser.gwdg.de/~compbiol/uniclust/2018_08/uniclust30_2018_08_hhsuite.tar.gz
+tar -xzvf uniclust30_2018_08_hhsuite.tar.gz
+```
 
 
 
