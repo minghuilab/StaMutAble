@@ -36,7 +36,7 @@ cd stamutable
 
 We have released all five regression models and five classification models on Hugging Face. You can download them using the following commands and place them in the specified directory.
 
-(1) RF models
+**(1) Download RF models**
 
 ```
 wget -O /stamutable/models/cls_1/mega1_3000_2_model.pkl https://huggingface.co/liuyang9529/StaMutAble/resolve/main/cls_mega1_3000_2_model.pkl
@@ -50,6 +50,17 @@ wget -O /stamutable/models/reg_1/mega1_3000_2_model.pkl https://huggingface.co/l
 
 
 ```
+
+**(2) Download Rosetta to run ThermoNet**
+
+```
+wget https://downloads.rosettacommons.org/downloads/academic/2023/wk6/
+tar -xjf rosetta.binary.linux.release-315.tar.bz2 -C /stamutable/methods10/ThermoNet
+cd /stamutable/methods10/ThermoNet
+```
+
+
+
 
 
 
