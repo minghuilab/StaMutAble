@@ -79,7 +79,7 @@ The program's default input file path is **/stamutable/example_5B83**, and the d
 
 The input and output paths can be customized and created according to specific needs.
 
-The reference format for the input file is shown below: [example_100muts.txt](stamutable_input/example_100muts.txt):
+The reference format for the input file is shown below: [example_5B83.txt](stamutable_input/example_100muts.txt):
 
 ```
 pdb_chain       mutation
