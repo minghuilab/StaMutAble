@@ -90,13 +90,17 @@ The input and output paths can be customized and created according to specific n
 The reference format for the input file is shown below: [example_5B83.txt](stamutable_input/example_100muts.txt):
 
 ```
-pdb_chain       mutation
-5B83_A  M229W,F232W
+PDB ID  MutChain        mutation
+5B83    A       Y135K
+5B83    A       G205R
+5B83    A       V222P
 ```
 
 **Note：**
 
-(1) The **pdb_mut** column represents the mutation along with the PDB ID and chain where the mutation occurs. The **mutation** column indicates all single-point mutations occurring on this protein.
+(1) The PDB ID column lists the corresponding PDB identifiers.
+The MutChain column indicates the chain in which the mutation occurs.
+The mutation column lists the single-point mutations for the given protein.
 
 (2) Different columns in the table are separated by tabs.
 
