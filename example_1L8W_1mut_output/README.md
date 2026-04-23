@@ -24,5 +24,5 @@
 
 (7) PremPS,ThermoMPNN,ThermoNet,ACDC-NN,DDGun3D,MAESTRO,MultiMutate,SimBa-SYM,FoldX,RaSP: Predictions from 10 different methods.
 
-(8) RF-Ensemble-BalAvg: Predictions from regression model RF-Ensemble-BalAvg.
+(8) RF-Ensemble-BalVote: Predictions from regression model RF-Ensemble-BalAvg.
 
