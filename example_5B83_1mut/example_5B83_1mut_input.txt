@@ -1,0 +1,2 @@
+PDB ID	MutChain	mutation
+5B83	A	L132Q
