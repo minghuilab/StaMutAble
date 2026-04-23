@@ -113,7 +113,8 @@ The **mutation** column lists the single-point mutations for the given protein.
 
 You only need to fill in the first line, **job_name**, with the name of the directory you have defined.
 
-Example file names and formats can be found in **/stamutable/example_5B83_1mut/** and **/stamutable/example_1L8W_1mut/**.
+For examples, you can set **job_name** to **example_5B83_1mut** or **example_1L8W_1mut**, as shown in **/stamutable/run_prediction_example_5B83_1mut.sh** and **/stamutable/run_prediction_example_1L8W_1mut.sh**.
+
 
 ```
 job_name="" # e.g. : example_5B83_1mut or example_1L8W_1mut
@@ -146,6 +147,11 @@ mkdir -p "$output_pdbs"
 sh run_prediction.sh
 ```
 
+Run two examples: example_5B83_1mut and example_1L8W_1mut.
+```
+sh run_prediction_example_5B83_1mut.sh
+sh run_prediction_example_1L8W_1mut.sh
+```
 
 
 ### 6. Recommended System Requirements
