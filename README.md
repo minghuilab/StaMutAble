@@ -83,11 +83,9 @@ tar -xzvf uniclust30_2018_08_hhsuite.tar.gz
 
 ### 4. Preparing Input and Output Dictionaries
 
-The program's default input file path is **/stamutable/example_5B83**, and the default output path is **/stamutable/example_5B83_output**. 
+Example: The program requires an input directory named /stamutable/example_5B83_1mut/, which should contain the mutation file example_5B83_1mut_input.txt.
 
-The input and output paths can be customized and created according to specific needs.
-
-The reference format for the input file is shown below: [example_5B83.txt](stamutable_input/example_100muts.txt):
+The reference format for the input file is shown below:
 
 ```
 PDB ID  MutChain        mutation
@@ -98,20 +96,23 @@ PDB ID  MutChain        mutation
 
 **Note：**
 
-(1) The PDB ID column lists the corresponding PDB identifiers.
-The MutChain column indicates the chain in which the mutation occurs.
-The mutation column lists the single-point mutations for the given protein.
+(1) The **PDB ID** column lists the corresponding PDB identifiers.
+The **MutChain** column indicates the chain in which the mutation occurs.
+The **mutation** column lists the single-point mutations for the given protein.
 
 (2) Different columns in the table are separated by tabs.
 
-(3) Please place the PDB structures to be processed in the **input_pdbs** folder. Please ensure that PDB filenames do not contain '_' and are consistent with those specified in the input mutation file.
+(3) Please ensure that PDB structure filenames do not contain '_' and are consistent with those specified in the input mutation file.
 
 
 ### 5. Running StaMutAble
 
-(1) You can run the program by editing the run_prediction.sh script to set the input and output paths.
+(1) You can run the program by editing the run_prediction.sh script .
+
+Example file names and formats can be found in /stamutable/example_5B83_1mut/ and /stamutable/example_5B83_100mut/.
+
 ```
-job_name="example_5B83"
+job_name="" # example_5B83
 base_dir="/stamutable/${job_name}/"
 
 input_muts="${base_dir}/${job_name}_input.txt"
@@ -147,7 +148,7 @@ sh run_prediction.sh
 
 •	**RAM:** ≥120 GB recommended (≥110 GB minimal requirement)
 
-•	**Disk Space:** ≥340 GB (Docker image: ~340 GB + additional space for data and output)
+•	**Disk Space:** ≥340 GB (Docker image: including ~113 GB for the Docker image, ~87 GB for the UniClust30_2018_08 protein database, ~33 GB for Rosetta, plus additional space for data and outputs)
 
 
 
