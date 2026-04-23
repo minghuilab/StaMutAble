@@ -85,7 +85,7 @@ tar -xzvf uniclust30_2018_08_hhsuite.tar.gz
 
 Please prepare an input directory, and name the input file as <folder_name>_input.txt.
 
-Example: The program requires an input directory named **/stamutable/example_5B83_1mut/**, which should contain the mutation file **example_5B83_1mut_input.txt**.
+Example: The program requires an input directory named **/stamutable/example_5B83_1mut/**, which should contain the mutation file [**example_5B83_1mut_input.txt**](/StaMutAble/example_5B83_1mut/example_5B83_1mut_input.txt).
 
 The reference format for the input file is shown below:
 
