@@ -17,12 +17,8 @@ gunzip -c stamutable_flat.tar.gz | docker import - stamutable_flat:v1
 ```
 
 
-•  Image size: 340 GB  
-•  Estimated download time (approximate):
-
-> 100 Mbps: ~450 min    
-> 1 Gbps: ~48 min  
-> (actual time depends on your network speed)
+•  After decompression, the image is about 113 GB.  
+•  Estimated download time depends on your network speed.
 
 
 ### 2. Run the Docker Container and Activate Environment
