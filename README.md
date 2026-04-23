@@ -13,7 +13,7 @@ For the easiest setup, pull the public Docker image. Make sure Docker is install
 
 ```
 wget https://huggingface.co/liuyang9529/StaMutAble/blob/main/stamutable_flat.tar.gz
-gunzip -c stamutable_flat.tar.gz | docker import - stamutable_flat:v1
+gunzip -c stamutable_flat.tar.gz | docker import - minghuilab/stamutable:v1
 ```
 
 
