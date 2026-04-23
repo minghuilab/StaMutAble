@@ -113,11 +113,11 @@ The **mutation** column lists the single-point mutations for the given protein.
 
 You only need to fill in the first line, **job_name**, with the name of the directory you have defined.
 
-For examples, you can set **job_name** to **example_5B83_1mut** or **example_1L8W_1mut**, as shown in **/stamutable/run_prediction_example_5B83_1mut.sh** and **/stamutable/run_prediction_example_1L8W_1mut.sh**.
+For examples, you can set **job_name** to **example_5B83_1mut** or **example_1L8W_1mut**, as shown in /stamutable/run_prediction_example_5B83_1mut.sh and /stamutable/run_prediction_example_1L8W_1mut.sh.
 
 
 ```
-job_name="" # e.g. : example_5B83_1mut or example_1L8W_1mut
+**job_name="" # e.g. : example_5B83_1mut or example_1L8W_1mut**
 base_dir="/stamutable/${job_name}/"
 
 input_muts="${base_dir}/${job_name}_input.txt"
