@@ -112,7 +112,7 @@ The **mutation** column lists the single-point mutations for the given protein.
 Example file names and formats can be found in **/stamutable/example_5B83_1mut/** and **/stamutable/example_1L8W_1mut/**.
 
 ```
-job_name="" # example_5B83
+job_name="" # example_5B83_mut
 base_dir="/stamutable/${job_name}/"
 
 input_muts="${base_dir}/${job_name}_input.txt"
