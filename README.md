@@ -109,7 +109,7 @@ The **mutation** column lists the single-point mutations for the given protein.
 
 (1) You can run the program by editing the run_prediction.sh script .
 
-Example file names and formats can be found in /stamutable/example_5B83_1mut/ and /stamutable/example_5B83_100mut/.
+Example file names and formats can be found in **/stamutable/example_5B83_1mut/** and **/stamutable/example_1L8W_1mut/**.
 
 ```
 job_name="" # example_5B83
