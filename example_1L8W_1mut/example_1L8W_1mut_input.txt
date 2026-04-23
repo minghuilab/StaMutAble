@@ -1,0 +1,2 @@
+PDB ID	MutChain	mutation
+1L8W	D	D160A
