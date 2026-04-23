@@ -147,7 +147,7 @@ mkdir -p "$output_pdbs"
 sh run_prediction.sh
 ```
 
-Run two examples: example_5B83_1mut and example_1L8W_1mut.
+Run two examples: **example_5B83_1mut** and **example_1L8W_1mut**.
 ```
 sh run_prediction_example_5B83_1mut.sh
 sh run_prediction_example_1L8W_1mut.sh
