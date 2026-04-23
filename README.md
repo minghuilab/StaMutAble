@@ -61,9 +61,9 @@ Download Rosetta 3.10 (including both source code and Linux binaries) from: http
 Extract the downloaded tarball to a local directory. Ensure that the Rosetta executables can be accessed by specifying their full path (or by adding the directory to your PATH environment variable).
 
 ```
+cd /stamutable/methods10/ThermoNet
 wget https://downloads.rosettacommons.org/downloads/academic/3.10/rosetta_bin_linux_3.10_bundle.tgz
 tar -xzvf rosetta_bin_linux_3.10_bundle.tgz -C /stamutable/methods10/ThermoNet
-cd /stamutable/methods10/ThermoNet
 ```
 
 
