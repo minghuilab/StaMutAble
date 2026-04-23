@@ -85,7 +85,7 @@ tar -xzvf uniclust30_2018_08_hhsuite.tar.gz
 
 Example: The program requires an input directory named /stamutable/example_5B83_1mut/, which should contain the mutation file **example_5B83_1mut_input.txt**.
 
-The reference format for the input file **example_5B83_1mut_input.txt** is shown below:
+The reference format for the input file is shown below:
 
 ```
 PDB ID  MutChain        mutation
