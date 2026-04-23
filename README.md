@@ -117,7 +117,7 @@ For examples, you can set **job_name** to **example_5B83_1mut** or **example_1L8
 
 
 ```
-**job_name="" # e.g. : example_5B83_1mut or example_1L8W_1mut**
+job_name=""     # e.g. : example_5B83_1mut or example_1L8W_1mut
 base_dir="/stamutable/${job_name}/"
 
 input_muts="${base_dir}/${job_name}_input.txt"
