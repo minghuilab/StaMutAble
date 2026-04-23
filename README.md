@@ -83,9 +83,9 @@ tar -xzvf uniclust30_2018_08_hhsuite.tar.gz
 
 ### 4. Preparing Input and Output Dictionaries
 
-Example: The program requires an input directory named /stamutable/example_5B83_1mut/, which should contain the mutation file example_5B83_1mut_input.txt.
+Example: The program requires an input directory named /stamutable/example_5B83_1mut/, which should contain the mutation file **example_5B83_1mut_input.txt**.
 
-The reference format for the input file is shown below:
+The reference format for the input file **example_5B83_1mut_input.txt** is shown below:
 
 ```
 PDB ID  MutChain        mutation
@@ -102,7 +102,7 @@ The **mutation** column lists the single-point mutations for the given protein.
 
 (2) Different columns in the table are separated by tabs.
 
-(3) Please ensure that PDB structure filenames do not contain '_' and are consistent with those specified in the input mutation file.
+(3) Please ensure that PDB structure filenames do not contain '_' and are consistent with those specified in the input mutation file **example_5B83_1mut_input.txt**.
 
 
 ### 5. Running StaMutAble
