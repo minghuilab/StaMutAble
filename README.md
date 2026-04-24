@@ -9,7 +9,7 @@ StaMutAble is a computational framework for predicting mutation-induced protein 
 
 ### 1. Pull Docker Image
 
-For the easiest setup, pull the public Docker image. Make sure Docker is installed: https://docs.docker.com/get-started/get-docker/
+For the easiest setup, download the public Docker image. Make sure Docker is installed: https://docs.docker.com/get-started/get-docker/
 
 ```
 wget https://huggingface.co/liuyang9529/StaMutAble/blob/main/stamutable_flat.tar.gz
