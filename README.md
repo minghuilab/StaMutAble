@@ -158,7 +158,7 @@ sh run_prediction_example_1L8W_1mut.sh
 
 •	**RAM:** ≥120 GB recommended (≥110 GB minimal requirement)
 
-•	**Disk Space:** ≥340 GB (Docker image: including ~113 GB for the Docker image, ~87 GB for the UniClust30_2018_08 protein database, ~33 GB for Rosetta, plus additional space for data and outputs)
+•	**Disk Space:** ≥340 GB (Docker image: including ~113 GB for the Docker image, ~87 GB for the uniclust30_2018_08 protein database, ~33 GB for Rosetta, plus additional space for data and outputs)
 
 
 
