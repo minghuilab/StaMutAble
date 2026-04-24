@@ -158,6 +158,7 @@ sh run_prediction_example_1L8W_1mut.sh
 ### 6. Understanding Output Files
 
 After running StaMutAble, two types of output files will be generated in the specified output directory.
+
 Among them, {job_name}_predictions10_reg_output.txt corresponds to the results of the regression model RF-Ensemble-BalAvg, while {job_name}_predictions10_cls_output.txt corresponds to the results of the classification model RF-Ensemble-BalVote.
 
 The outputs for the two examples, example_5B83_1mut and example_1L8W_1mut, can be found in the folders [example_5B83_1mut_output](/example_5B83_1mut_output/) and [example_1L8W_1mut_output](/example_1L8W_1mut_output/), respectively. The meaning of each column can be referred to in the README.md file within the corresponding folder.
