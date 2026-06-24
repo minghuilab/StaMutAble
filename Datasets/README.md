@@ -26,6 +26,6 @@
 
 (11) Is_S2648: Indicates whether the mutation is present in the S2648 dataset.
 
-(12) Is_S6373: Indicates whether the mutation is present in the S6373 dataset.
+(12) Is_S2802: Indicates whether the mutation is present in the S2802 dataset.
 
-(13) Is_S1030: Indicates whether the mutation is present in the S1030 dataset.
+(13) Is_S884: Indicates whether the mutation is present in the S884 dataset.
